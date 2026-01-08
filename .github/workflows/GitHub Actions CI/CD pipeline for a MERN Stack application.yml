@@ -55,6 +55,10 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      with:
+        args: >
+          -Dsonar.projectKey=your_project_key
+          -Dsonar.organization=your_organization
 
     # ---------------- DOCKER SETUP ----------------
     - name: Set up Docker Buildx
