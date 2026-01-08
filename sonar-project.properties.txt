@@ -1,5 +1,5 @@
 sonar.projectKey=dee097328ec170b3b5aaa084d0b5000164a6eb4b
-sonar.organization=https://sonarcloud.io
+sonar.organization=Hari Prrakash
 
 sonar.sources=frontend,backend
 sonar.sourceEncoding=UTF-8
